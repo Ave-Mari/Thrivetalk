@@ -1,0 +1,36 @@
+.secvice-desk__slogan {
+    font-size: 48px;
+    color: #22356F;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.service-desk__text {
+    font-size: 24px;
+    width: 492px;
+    color: #22356F;
+    font-weight: 300;
+}
+
+.btn {
+    background: #F9B640;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 11px 21px;
+    cursor: pointer;
+
+    &:hover {
+        background: #22356F;
+    }
+}
+
+.btn-no-bg {
+    background: none;
+    color: #F9B640;
+
+    &:hover {
+        background: #62D0DF;
+        color: #ffffff;
+    }
+}

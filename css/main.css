@@ -1,0 +1,99 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+* {
+  font-family: "Roboto";
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.maincontent {
+  margin: 0 auto;
+}
+
+.welcome-screen {
+  background: url("./../img/first-screen.png") right top no-repeat, #F4F9E2;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 124px;
+}
+
+.service__logo {
+  font-size: 24px;
+  color: #62D0DF;
+}
+
+.nav__list {
+  display: flex;
+  padding-top: 14px;
+}
+
+.nav__item {
+  font-size: 14px;
+  font-weight: 400;
+  color: #22356F;
+  margin-right: 18px;
+  padding: 0 5px 10px 5px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+.nav__item:hover {
+  border-bottom: 2px solid #22356F;
+  transition: 0.8 ease;
+}
+
+.nav__item__link {
+  color: #22356F;
+}
+
+.contact-btn {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 15px 8px 15px;
+  background: #62D0DF;
+  border-radius: 50px;
+  border: none;
+}
+
+.secvice-desk__slogan {
+  font-size: 48px;
+  color: #22356F;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.service-desk__text {
+  font-size: 24px;
+  width: 492px;
+  color: #22356F;
+  font-weight: 300;
+}
+
+.btn {
+  background: #F9B640;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  padding: 11px 21px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #22356F;
+}
+
+.btn-no-bg {
+  background: none;
+  color: #F9B640;
+}
+.btn-no-bg:hover {
+  background: #62D0DF;
+  color: #ffffff;
+}

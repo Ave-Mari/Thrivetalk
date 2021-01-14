@@ -1,0 +1,47 @@
+.header {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+.service__logo {
+    font-size: 24px;
+    color: #62D0DF;
+}
+
+.nav__list {
+    display: flex; 
+    padding-top: 14px;
+}
+
+.nav__item {
+    font-size: 14px;
+    font-weight: 400;
+    color: #22356F;
+    margin-right: 18px;
+    padding: 0 5px 10px 5px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        border-bottom: 2px solid #22356F;        
+        transition: .8 ease;
+        
+    }
+}
+
+.nav__item__link {    
+    color: #22356F;
+}
+
+.contact-btn {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8px 15px 8px 15px;
+    background: #62D0DF;
+    border-radius: 50px;
+    border: none;
+}
+
