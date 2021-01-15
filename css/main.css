@@ -200,3 +200,22 @@
   position: absolute;
   transform: translate(-178%, -23%);
 }
+
+.lifestyle__list {
+  flex-wrap: wrap;
+}
+
+.lifestyle__item {
+  padding-right: 94px;
+  padding-left: 54px;
+  padding-top: 125px;
+  padding-bottom: 179px;
+}
+
+.lifestyle__headline {
+  width: 293px;
+}
+
+.lifestyle__content {
+  width: 148px;
+}
