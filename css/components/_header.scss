@@ -7,6 +7,11 @@
 .service__logo {
     font-size: 24px;
     color: #62D0DF;
+    margin-left: 76px;
+
+    &:last-child {
+        margin-left: 0;
+    }
 }
 
 .nav__list {
