@@ -1,0 +1,35 @@
+* {
+    font-family: 'Roboto';  
+    list-style-type: none; 
+
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.maincontent {
+    margin: 0 auto;
+}
+
+
+//normalize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+
+//components
+
+@import "components/_welcome-screen.scss"; 
+@import "components/_header.scss"; 
+@import "components/_service-desk.scss"; 
+@import "components/_benefits-screen.scss"; 
+
+
+
+
+
+// media 
+@import "components/_media.scss";
