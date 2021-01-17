@@ -44,9 +44,22 @@
 .contact-btn {
     color: #ffffff;
     font-size: 14px;
-    padding: 8px 15px 8px 15px;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    padding-left: 30px;
     background: #62D0DF;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
+
+    &:hover {
+        background:#22356F;
+    }
 }
 
+.button-wrapper {
+    display: flex;
+    align-items: center;
+}

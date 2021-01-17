@@ -1,0 +1,36 @@
+.lifestyle-desk__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-bottom: 100px;
+
+}
+
+.lifestyle-desk__item {
+    margin-right: 130px;
+
+    &:nth-child(3) {
+        margin-right: 0;
+    }
+    &:nth-child(6) {
+        margin-right: 0;
+    }
+}
+
+
+
+.lifestyle-desk__headline {
+    font-size: 28px;
+    font-weight: 400;
+    color: #22356F;
+}
+
+
+.lifestyle-desk__text {
+    font-size: 16px;
+    font-weight: 400;
+    width: 298px;
+    color: #909AB7;
+}
