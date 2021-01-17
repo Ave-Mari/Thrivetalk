@@ -265,3 +265,43 @@
   width: 298px;
   color: #909AB7;
 }
+
+.help-section {
+  background: url("./../img/youshouldalsoknow.png") left top no-repeat;
+  height: 100vh;
+  padding-top: 103px;
+}
+
+.help-section__wrapper {
+  margin-left: 580px;
+}
+
+.help-section__headline {
+  color: #22356F;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 225px;
+}
+
+.help-section__text {
+  width: 515px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #22356F;
+  margin-top: 0px;
+  margin-bottom: 152px;
+}
+
+.btn-help-section {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #F9B640;
+}
+.btn-help-section:hover {
+  background: none;
+  color: #62D0DF;
+}
