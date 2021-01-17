@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
 * {
   font-family: "Roboto";
@@ -80,18 +81,18 @@
   align-items: center;
 }
 
-.service-desk {
+.service-desс {
   margin-left: 76px;
 }
 
-.secvice-desk__slogan {
+.secvice-desс__slogan {
   font-size: 48px;
   color: #22356F;
   width: 500px;
   margin-bottom: 10px;
 }
 
-.service-desk__text {
+.service-desс__text {
   font-size: 24px;
   width: 492px;
   color: #22356F;
@@ -146,7 +147,7 @@
   font-weight: 300;
 }
 
-.about__desk {
+.about__desс {
   display: flex;
   padding-top: 150px;
   margin-bottom: 76px;
@@ -233,7 +234,7 @@
   width: 148px;
 }
 
-.lifestyle-desk__list {
+.lifestyle-desс__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -242,23 +243,23 @@
   padding-bottom: 100px;
 }
 
-.lifestyle-desk__item {
+.lifestyle-desс__item {
   margin-right: 130px;
 }
-.lifestyle-desk__item:nth-child(3) {
+.lifestyle-desс__item:nth-child(3) {
   margin-right: 0;
 }
-.lifestyle-desk__item:nth-child(6) {
+.lifestyle-desс__item:nth-child(6) {
   margin-right: 0;
 }
 
-.lifestyle-desk__headline {
+.lifestyle-desс__headline {
   font-size: 28px;
   font-weight: 400;
   color: #22356F;
 }
 
-.lifestyle-desk__text {
+.lifestyle-desс__text {
   font-size: 16px;
   font-weight: 400;
   width: 298px;
