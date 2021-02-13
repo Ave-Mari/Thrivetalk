@@ -17,7 +17,7 @@
 
 .welcome-screen {
   background: url("./../img/first-screen.png") right top no-repeat, #F4F9E2;
-  height: 100vh;
+  height: 1117px;
 }
 
 .header {
@@ -81,18 +81,18 @@
   align-items: center;
 }
 
-.service-desс {
+.service-desc {
   margin-left: 76px;
 }
 
-.secvice-desс__slogan {
+.secvice-desc__slogan {
   font-size: 48px;
   color: #22356F;
   width: 500px;
   margin-bottom: 10px;
 }
 
-.service-desс__text {
+.service-desc__text {
   font-size: 24px;
   width: 492px;
   color: #22356F;
@@ -304,4 +304,9 @@
 .btn-help-section:hover {
   background: none;
   color: #62D0DF;
+}
+
+.contact-screen {
+  background: url("./../img/guy.png") right top no-repeat, #22356F;
+  height: 100vh;
 }
