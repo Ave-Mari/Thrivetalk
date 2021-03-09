@@ -2,3 +2,39 @@
     background: url("./../img/guy.png") right top no-repeat, #22356F;
     height: 100vh;
 }
+
+.contact-screen__wrapper {
+    padding-top: 36px;
+    margin-left: 76px;
+}
+
+.contact-screen__title {
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 230px;
+}
+
+.contact-screen__subtitle {
+    color: #fff;
+    font-size: 64px;
+}
+
+.contact-screen__text {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+    width: 530px;
+    margin-bottom: 70px;
+}
+
+.btn-contact-screen {
+    color: #62D0DF;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+        color: #F9B640;
+    }
+}
